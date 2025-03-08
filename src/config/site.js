@@ -1,6 +1,6 @@
 export function constructMetadata({
-  title = "Abdullah Agency ",
-  description = "Abdullah Agency is an open-source website.",
+  title = "Rahma Community Center",
+  description = "A Vibrant Hub for Spiritual, Educational, and Community Growth",
   image = "/agency.PNG",
   icons = "/favicon.ico",
   noIndex = false,

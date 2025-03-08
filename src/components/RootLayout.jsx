@@ -12,6 +12,7 @@ import clsx from "clsx";
 import Offices from "./Offices";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
+import imageLogo from "../images/RahmaLogo.png";
 
 const Header = ({
   panelId,
@@ -27,12 +28,20 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Abdullah Agency</Logo>
+          <Logo image={imageLogo} invert={invert}>Rahma Community Center</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href={"/contact"} invert={invert}>
-            Contact us
-          </Button>
+          <div className="hidden lg:flex space-x-4">
+            <Button href={"/programs"} invert={invert}>
+              Programs
+            </Button>
+            <Button href={"/ramadan"} invert={invert}>
+              Ramadan
+            </Button>
+            <Button href={"/donate"} invert={invert}>
+              Donate
+            </Button>
+          </div>
           <button
             ref={toggleRef}
             type="button"
@@ -85,12 +94,16 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
+        <NavigationItem href="/ramadan">Ramadan</NavigationItem>
+        <NavigationItem href="/donate">Donate</NavigationItem>
+      </NavigationRow>
+      <NavigationRow>
+        <NavigationItem href="/programs">Programs</NavigationItem>
         <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="/contact">Contact</NavigationItem>
+        <NavigationItem href="/map">Halal Map</NavigationItem>
       </NavigationRow>
     </nav>
   );
@@ -167,13 +180,6 @@ const RootLayoutInner = ({ children }) => {
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                   <div>
-                    <h2 className="font-display text-base font-semibold text-white">
-                      Our offices
-                    </h2>
-                    <Offices
-                      invert
-                      className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
-                    />
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">

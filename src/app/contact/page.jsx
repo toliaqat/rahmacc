@@ -9,7 +9,7 @@ const ContactPage = () => {
       <PageIntro eyebrow="Contact us" title="Let’s work together">
         <p>We can not wait to hear from you.</p>
       </PageIntro>
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
+      <Container className="mt-12 sm:mt-12 lg:mt-12">
         <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
           <ContactDetails />
           <ContactForm />

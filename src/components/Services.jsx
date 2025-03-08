@@ -3,20 +3,21 @@ import SectionIntro from "./SectionIntro";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import StylizedImage from "./StylizedImage";
-import imageLaptop from "../images/laptop.jpg";
+import imageLaptop from "../images/798px-Islamic_Art.jpg";
 import List, { ListItem } from "./List";
 
 const Services = () => {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow="Our Services"
+        title="Nurturing Spirit, Empowering Community Growth!"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        At Rahma Community Center, our services are dedicated to nurturing the spirit, empowering
+        our youth, and strengthening the bonds of our community.
+        We believe in creating an environment where everyone can grow, contribute, and find solace.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -32,24 +33,23 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Spiritual and Worship Services">
+             We provide a serene and welcoming mosque environment where you can engage in daily prayers, special Jumu&apos;ah gatherings,
+             and community-led spiritual sessions. Our aim is to offer a sanctuary that supports your journey of faith and reflection.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Youth Empowerment Programs">
+             Our youth programs are designed to inspire and empower the next generation. Through educational workshops,
+             mentorship opportunities, and recreational activities, we equip young minds with the skills and confidence
+             needed to lead and serve.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Community Outreach and Engagement">
+             We are committed to serving our community with compassion and unity. Our outreach initiatives foster inclusivity
+             and support for everyone. From local volunteer projects to global humanitarian efforts, we strive to be a beacon
+             of hope and care in a diverse and interconnected world.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Educational and Development Resources">
+             At Rahma Community Center, learning and growth are at the heart of our mission. We offer a range of resources including seminars,
+             leadership training, and counseling services designed to promote personal development and community resilience.
             </ListItem>
           </List>
         </div>

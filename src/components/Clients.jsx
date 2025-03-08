@@ -27,23 +27,16 @@ const Clients = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We have worked with hundreds of amazing people
+            Our Mosque
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
         <FadeInStagger faster>
-          <ul
-            role="list"
-            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
-          >
-            {clients.map(([client, logo]) => (
-              <li key={client}>
-                <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
-                </FadeIn>
-              </li>
-            ))}
-          </ul>
+        <p className="mt-6 text-xl text-white text-neutral-600">
+          At Rahma Community Center, we believe in nurturing both the spirit and the community.
+          Rooted in Islamic values, our center is a sanctuary for Muslims and a welcoming space
+          for everyone interested in building a brighter future together.
+          </p>
         </FadeInStagger>
       </Container>
     </div>
