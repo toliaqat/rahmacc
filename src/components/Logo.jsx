@@ -2,7 +2,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import Image from "next/image";
 
-const Logo = ({ invert, image, href, className, children, ...props }) => {
+const Logo = ({ invert, image, href, className, fillonhover, children, ...props }) => {
   className = clsx(
     className,
     "black",
@@ -23,6 +23,10 @@ const Logo = ({ invert, image, href, className, children, ...props }) => {
       {children}
     </span>
   );
+
+  if (fillonhover === true) {
+    props.fillonhover = "true";
+  }
 
   if (href) {
     return (

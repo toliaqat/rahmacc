@@ -115,7 +115,7 @@ const AboutPage = () => {
       {/* Board Members Section */}
       <Container className="mt-16">
         <h2 className="font-display text-2xl font-semibold text-neutral-950 mb-10 text-center">
-          Our Board Members
+          Our Board
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
           {boardMembers.map((member, index) => (

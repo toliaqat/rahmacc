@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         'custom-beige': '#F0EEE6',
+        'custom-beige2': '#BCD1CA',
       },
       fontFamily: {
         sans: ["Mona Sans", ...defaultTheme.fontFamily.sans],
