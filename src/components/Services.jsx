@@ -3,7 +3,7 @@ import SectionIntro from "./SectionIntro";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import StylizedImage from "./StylizedImage";
-import imageLaptop from "../images/798px-Islamic_Art.jpg";
+import imageLaptop from "../images/Islamic_Art.jpg";
 import List, { ListItem } from "./List";
 
 const Services = () => {

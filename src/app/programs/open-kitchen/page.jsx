@@ -19,7 +19,7 @@ const OpenKitchenPage = () => {
       </PageIntro>
 
       <Container className="mt-8">
-        <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
               Coming Soon
@@ -64,7 +64,7 @@ const OpenKitchenPage = () => {
         {/* Program Goals section */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Program Goals</h2>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden p-6">
+          <div className="bg-custom-beige rounded-lg shadow-md overflow-hidden p-6">
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">•</span>
@@ -94,19 +94,19 @@ const OpenKitchenPage = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">When will the Open Kitchen program launch?</h3>
               <p className="text-gray-600">We are currently in the planning and development phase. We expect to launch the program in the coming months and will announce the official start date on our website and social media channels.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">Who can access the Open Kitchen services?</h3>
               <p className="text-gray-600">Our Open Kitchen will be available to anyone in need of a meal, regardless of background, faith, or circumstance. We believe in serving our entire community with dignity and respect.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">How can I support this initiative?</h3>
               <p className="text-gray-600">Once launched, we&apos;ll need volunteers to help prepare and serve meals, as well as donations of food items and funds. We&apos;ll share specific ways to contribute when the program is closer to launch.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">Will dietary restrictions be accommodated?</h3>
               <p className="text-gray-600">Yes, we plan to offer options that accommodate common dietary restrictions and cultural preferences whenever possible. All meals will be prepared according to halal guidelines.</p>
             </div>

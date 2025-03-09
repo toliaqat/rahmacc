@@ -4,6 +4,79 @@ import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
+import Image from "next/image";
+import ihabImage from "../../images/team/Ihab.jpg";
+import gussanImage from "../../images/team/Gussan.jpg";
+import hichamImage from "../../images/team/Hicham.jpg";
+import safdarImage from "../../images/team/Safdar.jpg";
+import imadImage from "../../images/team/Imad.jpg";
+import anasImage from "../../images/team/Anas.jpg";
+import khaledImage from "../../images/team/Khaled.png";
+import touseefImage from "../../images/team/Touseef.jpg";
+
+// Board members data
+const boardMembers = [
+  {
+    name: "Ihab Bounani",
+    title: "President",
+    image: ihabImage,
+  },
+  {
+    name: "Ghassan Marouf ",
+    title: "Vice President",
+    image: gussanImage,
+  },
+  {
+    name: "Hicham Abaoubida",
+    title: "Secretary",
+    image: hichamImage,
+  },
+  {
+    name: "Safder Meah",
+    title: "Treasurer",
+    image: safdarImage,
+  },
+  {
+    name: "Imad Iqbal",
+    title: "Community Outreach Director",
+    image: imadImage,
+  },
+  {
+    name: "Anas Kattan",
+    title: "Board Member",
+    image: anasImage,
+  },
+  {
+    name: "Khaled Anntar",
+    title: "Board Member",
+    image: khaledImage,
+  },
+  {
+    name: "Touseef Liaqat",
+    title: "Board Member",
+    image: touseefImage,
+  },
+];
+
+// Board Member component
+function BoardMember({ member }) {
+  return (
+    <div className="flex flex-col items-center">
+      <div className="relative h-40 w-40 overflow-hidden rounded-full mb-4">
+        <Image
+          src={member.image}
+          alt={member.name}
+          fill
+          className="object-cover"
+        />
+      </div>
+      <h3 className="font-display text-lg font-semibold text-neutral-950">
+        {member.name}
+      </h3>
+      <p className="text-sm text-neutral-700">{member.title}</p>
+    </div>
+  );
+}
 
 const AboutPage = () => {
   return (
@@ -38,6 +111,18 @@ const AboutPage = () => {
           </p>
         </div>
       </PageIntro>
+
+      {/* Board Members Section */}
+      <Container className="mt-16">
+        <h2 className="font-display text-2xl font-semibold text-neutral-950 mb-10 text-center">
+          Our Board Members
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
+          {boardMembers.map((member, index) => (
+            <BoardMember key={index} member={member} />
+          ))}
+        </div>
+      </Container>
       {/* <Container className="mt-16">
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />

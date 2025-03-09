@@ -5,7 +5,7 @@ import { GridList, GridListItem } from "./GridList";
 
 const Cultures = () => {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
+    <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32 mx-6 sm:mx-6 md:mx-8">
       <SectionIntro
         eyebrow="Our culture"
         title="A diverse community united by compassion, faith, and mutual respect."

@@ -20,7 +20,7 @@ const RoboticsPage = () => {
       </PageIntro>
 
       <Container className="mt-8">
-        <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
               Coming Soon: FIRST Tech Challenge Teams
@@ -67,7 +67,7 @@ const RoboticsPage = () => {
         {/* Program Goals section */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Program Benefits</h2>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden p-6">
+          <div className="bg-custom-beige rounded-lg shadow-md overflow-hidden p-6">
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">•</span>
@@ -97,19 +97,19 @@ const RoboticsPage = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">What is the FIRST Tech Challenge (FTC)?</h3>
               <p className="text-gray-600">FTC is an internationally recognized robotics competition for students in grades 7-12. Teams design, build, program, and operate robots to compete in a head-to-head challenge. FTC is known for opening doors to prestigious universities and scholarship opportunities.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">How does this program help with college admissions?</h3>
               <p className="text-gray-600">FTC participation demonstrates to college admissions officers that you possess technical skills, leadership abilities, teamwork experience, and project management capabilities. Many top universities specifically look for FIRST robotics experience, and some offer substantial scholarships to participants.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">Do I need prior robotics experience?</h3>
               <p className="text-gray-600">No prior experience is necessary! Our program provides comprehensive training for beginners while challenging advanced participants. Teams need diverse skills—from programming and engineering to business planning, marketing, and leadership—so there&apos;s a role for everyone.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">How does the program develop entrepreneurial skills?</h3>
               <p className="text-gray-600">FTC teams function like small startups. Participants manage budgets, develop business plans, create marketing materials, fundraise, maintain engineering notebooks, and pitch their work to judges. This hands-on experience provides invaluable preparation for future business ventures or careers.</p>
             </div>

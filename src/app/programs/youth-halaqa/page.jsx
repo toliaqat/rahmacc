@@ -19,7 +19,7 @@ const YouthHalaqaPage = () => {
       </PageIntro>
 
       <Container className="mt-8">
-        <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
               Coming Soon
@@ -64,7 +64,7 @@ const YouthHalaqaPage = () => {
         {/* Program Goals section */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Program Goals</h2>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden p-6">
+          <div className="bg-custom-beige rounded-lg shadow-md overflow-hidden p-6">
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-2">•</span>
@@ -94,19 +94,19 @@ const YouthHalaqaPage = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">When will the Youth Halaqa program launch?</h3>
               <p className="text-gray-600">We&apos;re currently in the planning and development phase. We expect to launch the program in the coming months and will announce the official start date on our website and social media channels.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">What age groups will the Youth Halaqa serve?</h3>
               <p className="text-gray-600">Our Youth Halaqa will be designed for different age groups, likely including pre-teens and teenagers. We plan to offer age-appropriate content and activities tailored to each group&apos;s developmental needs.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">How can I register my child for the program?</h3>
               <p className="text-gray-600">Once launched, We&apos;ll have a registration process available on our website. We&apos;ll share specific registration details when the program is closer to launch.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">What topics will be covered in the Youth Halaqa?</h3>
               <p className="text-gray-600">The curriculum will include Quranic studies, Islamic history, prophetic traditions, character development, contemporary issues, and practical application of Islamic teachings in daily life.</p>
             </div>

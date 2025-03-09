@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 const ContactForm = () => {
   return (
     <FadeIn>
-      <div className="google-form-container">
+      <div className="flex justify-center">
         <iframe 
           src="https://docs.google.com/forms/d/e/1FAIpQLSeMnba-7Bs0BSJyaN7V6l-VKwju8uWHWTFunV6R4v9WRv16bA/viewform?embedded=true" 
           width="640" 

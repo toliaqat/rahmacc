@@ -13,7 +13,7 @@ const SundaySchoolStudentsApplicationPage = () => {
       </PageIntro>
 
       <Container className="mt-8">
-        <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
               Student Registration
@@ -29,7 +29,7 @@ const SundaySchoolStudentsApplicationPage = () => {
       </Container>
 
       <div className="mx-auto max-w-4xl px-6 lg:px-8 py-12 mt-8">
-        <div className="bg-white rounded-lg shadow-lg p-8">
+        <div className="bg-custom-beige rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Student Application Form</h2>
           <p className="text-gray-600 mb-8 text-center">
             Please complete the form below to register your child for our Sunday School program.

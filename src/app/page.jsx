@@ -44,8 +44,8 @@ export default function Home() {
           of love for it, to relatives, orphans, the needy, the traveler, those
           who ask [for help], and for freeing slaves.
         </Testimonials>
-        <Container className="">
-          <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <Container className="mt-24 sm:mt-32 lg:mt-40">
+          <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
                 Prayer Times!
@@ -94,6 +94,10 @@ export default function Home() {
                       src="https://www.islamicfinder.org/prayer-widget/5803457/shafi/5/0/15.0/15.0"
                     />
                   </div>
+                </div>
+                <div className="mt-6 text-white/70 text-sm text-center px-4">
+                  <p>Prayer times are provided by IslamicFinder using Shafi / Hanbali / Maliki juristic settings.</p>
+                  <p className="mt-1">Please note that Iqama times at Rahma Community Center may differ from the calculated prayer times shown above.</p>
                 </div>
               </div>
             </div>

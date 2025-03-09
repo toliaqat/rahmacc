@@ -20,7 +20,7 @@ const DonatePage = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Venmo */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
             <div className="h-12 w-12 mx-auto mb-4 bg-blue-500 rounded-full flex items-center justify-center">
               <span className="text-white text-xl font-bold">V</span>
             </div>
@@ -37,7 +37,7 @@ const DonatePage = () => {
           </div>
 
           {/* Zelle */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
             <div className="h-12 w-12 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
               <span className="text-white text-xl font-bold">Z</span>
             </div>
@@ -51,7 +51,7 @@ const DonatePage = () => {
           </div>
 
           {/* PayPal */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
             <div className="h-12 w-12 mx-auto mb-4 bg-blue-700 rounded-full flex items-center justify-center">
               <span className="text-white text-xl font-bold">P</span>
             </div>

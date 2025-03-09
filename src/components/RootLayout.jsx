@@ -50,7 +50,7 @@ const Header = ({
             aria-controls={panelId}
             className={clsx(
               "group -m-2.5 rounded-full p-2.5 transition",
-              invert ? "hover:bg-white/10" : "hover:bg-neutral-950/10"
+              invert ? "hover:bg-custom-beige/10" : "hover:bg-neutral-950/10"
             )}
             aria-label="Toggle navigation"
           >
@@ -196,7 +196,7 @@ const RootLayoutInner = ({ children }) => {
       <motion.div
         layout
         style={{ borderTopLeftRadius: 40, borderTopRightRadius: 40 }}
-        className="relative flex flex-auto overflow-hidden bg-white pt-14"
+        className="relative flex flex-auto overflow-hidden bg-custom-beige pt-14"
       >
         <motion.div
           layout

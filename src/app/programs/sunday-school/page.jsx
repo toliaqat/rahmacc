@@ -22,7 +22,7 @@ const SundaySchoolPage = () => {
 
         
     <Container className="mt-8">
-        <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+        <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
               Volunteers Needed
@@ -72,7 +72,7 @@ const SundaySchoolPage = () => {
         {/* Schedule section */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Class Schedule</h2>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-custom-beige rounded-lg shadow-md overflow-hidden">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
@@ -81,7 +81,7 @@ const SundaySchoolPage = () => {
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Subjects</th>
                 </tr>
               </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
+              <tbody className="bg-custom-beige divide-y divide-gray-200">
                 <tr>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Ages 5-7</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10:00 AM - 1:00 PM</td>
@@ -106,19 +106,19 @@ const SundaySchoolPage = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
           <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">What should my child bring to Sunday School?</h3>
               <p className="text-gray-600">Students should bring their Quran, notebooks, pencils, and a water bottle. All other materials will be provided.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">Is there a fee for the Sunday School program?</h3>
               <p className="text-gray-600">Yes, there is a nominal fee to cover educational materials and facility costs. Scholarships are available for families in need.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">Do parents need to stay during class time?</h3>
               <p className="text-gray-600">Parents are not required to stay during class time, but are welcome to participate in adult education programs that run concurrently.</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-custom-beige rounded-lg shadow-sm">
               <h3 className="text-lg font-medium text-gray-900 mb-2">How can I volunteer for the Sunday School program?</h3>
               <p className="text-gray-600">We welcome volunteers! Please contact our education coordinator through the Contact page to discuss volunteer opportunities.</p>
             </div>
