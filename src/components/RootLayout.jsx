@@ -32,6 +32,9 @@ const Header = ({
         </Link>
         <div className="flex items-center gap-x-8">
           <div className="hidden lg:flex space-x-4">
+            <Button href={"/events"} invert={invert}>
+              Events
+            </Button>
             <Button href={"/programs"} invert={invert}>
               Programs
             </Button>
@@ -99,10 +102,13 @@ const Navigation = () => {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/programs">Programs</NavigationItem>
+        <NavigationItem href="/events">Events</NavigationItem>
+      </NavigationRow>
+      <NavigationRow>
+        <NavigationItem href="/contact">Contact Us</NavigationItem>
         <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/contact">Contact</NavigationItem>
         <NavigationItem href="/map">Halal Map</NavigationItem>
       </NavigationRow>
     </nav>

@@ -10,13 +10,23 @@ const RamadanPage = () => {
         eyebrow="Ramadan Calendar"
         title="Ramadan Kareem!"
       >
-      <Image 
-        src={imageRamadan}
-        alt="Ramadan celebration" 
-        width={800} 
-        height={500}
-        className="rounded-lg shadow-md mt-6"
-      />
+        <Image 
+          src={imageRamadan}
+          alt="Ramadan celebration" 
+          width={800} 
+          height={500}
+          className="rounded-lg shadow-md mt-6"
+        />
+        <div className="mt-8 w-full">
+          <h2 className="text-2xl font-semibold mb-4">Ramadan Timer</h2>
+          <iframe 
+            src="https://ramadantimer.com/" 
+            title="Ramadan Timer"
+            className="w-full border-0 rounded-lg shadow-md" 
+            height="9q  00"
+            loading="lazy"
+          />
+        </div>
       </PageIntro>
     </>
   );
