@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
 import imageIslamicArt from "../images/Mosque.jpg";
 import StylizedImage from "@/components/StylizedImage";
+import MoonPhaseInfo from "@/components/MoonPhaseInfo";
 
 export default function Home() {
   return (
@@ -46,29 +47,6 @@ export default function Home() {
               </h3>
               <div className="mt-1 border-t border-white/10 pt-10">
                 <div className="flex flex-col md:flex-row  items-center">
-
-                    {/* Moon Phase Widget */}
-                    <div className="md:flex-1 flex justify-center">
-                      <table cellPadding="0" cellSpacing="0" border="0" width="130" height="195">
-                        <tbody>
-                          <tr>
-                            <td align="center">
-                              <img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="190" border="0" alt="" />
-                            </td>
-                            <td background="https://www.moonmodule.com/cs/dm/vn.gif" valign="bottom" align="center">
-                              <a href="https://www.moonconnection.com" target="mc_moon_ph">
-                                <img src="https://www.moonmodule.com/cs/dm/s.gif" width="128" height="250" border="0" alt="" />
-                              </a>
-                              
-                              <img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="4" border="0" alt="" />
-                            </td>
-                            <td>
-                              <img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="196" border="0" alt="" />
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
                   
                   {/* Prayer Widget */}
                   <div className="md:flex-1">
@@ -86,6 +64,12 @@ export default function Home() {
                       scrolling="no" 
                       src="https://www.islamicfinder.org/prayer-widget/5803457/shafi/5/0/15.0/15.0"
                     />
+                  </div>
+                  {/* Moon Phase Widget */}
+                  <div className="md:flex-1 flex flex-col items-center">
+                    <div className="flex flex-col items-center">
+                      <MoonPhaseInfo />
+                    </div>
                   </div>
                 </div>
                 <div className="mt-6 text-white/70 text-sm text-center px-4">
