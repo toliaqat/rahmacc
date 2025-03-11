@@ -1,4 +1,5 @@
 import RootLayout from "@/components/RootLayout";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
@@ -39,6 +40,20 @@ export default function Layout({ children }) {
     >
       <body className="flex min-h-full flex-col">
         <RootLayout>{children}</RootLayout>
+        {/* Givebutter Scripts */}
+        <Script id="givebutter-init" strategy="afterInteractive">
+          {`
+            window.Givebutter=window.Givebutter||function(){(Givebutter.q=Givebutter.q||[]).push(arguments)};Givebutter.l=+new Date;
+            window.Givebutter('setOptions',
+            {
+                "accountId": "VDxtggmGKgHUa9Lh"
+            });
+          `}
+        </Script>
+        <Script 
+          src="https://js.givebutter.com/elements/latest.js" 
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

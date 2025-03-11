@@ -16,58 +16,25 @@ const DonatePage = () => {
           Please consider donating through one of the methods below.
         </p>
       </PageIntro>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Venmo */}
-          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
-            <div className="h-12 w-12 mx-auto mb-4 bg-blue-500 rounded-full flex items-center justify-center">
-              <span className="text-white text-xl font-bold">V</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Venmo</h3>
-            <p className="mb-4 text-gray-900">@RAHMA-CommunityCenter</p>
-            <a 
-              href="https://venmo.com/RAHMA-CommunityCenter" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
-            >
-              Donate with Venmo
-            </a>
-          </div>
-
-          {/* Zelle */}
-          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
-            <div className="h-12 w-12 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
-              <span className="text-white text-xl font-bold">Z</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">Zelle</h3>
-            <p className="mb-4 text-gray-900">rahmacc.board@gmail.com</p>
-            <CopyButton 
-              textToCopy="rahmacc.board@gmail.com" 
-              className="inline-block bg-purple-500 text-white px-6 py-2 rounded-md hover:bg-purple-600 transition-colors"
-              buttonText="Copy Email"
-            />
-          </div>
-
-          {/* PayPal */}
-          <div className="bg-custom-beige p-6 rounded-lg shadow-md text-center">
-            <div className="h-12 w-12 mx-auto mb-4 bg-blue-700 rounded-full flex items-center justify-center">
-              <span className="text-white text-xl font-bold">P</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">PayPal</h3>
-            <p className="mb-4 text-gray-900">RahmaCommunityCenter</p>
-            <a 
-              href="https://paypal.me/RahmaCommunityCenter" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-700 text-white px-6 py-2 rounded-md hover:bg-blue-800 transition-colors"
-            >
-              Donate with PayPal
-            </a>
-          </div>
+      
+      <div className="flex justify-center mt-8">
+        <div className="w-full max-w-[601px]">
+          <iframe 
+            src="https://givebutter.com/embed/c/rahmacc" 
+            width="100%" 
+            height="488px" 
+            style={{overflow: "hidden"}} 
+            name="givebutter" 
+            frameBorder="0" 
+            scrolling="no" 
+            seamless="" 
+            allowPaymentRequest="" 
+            id="iFrameResizer0"
+          ></iframe>
+          <script src="https://givebutter.com/js/widget.js" async></script>
         </div>
-
+      </div>
+    
         <div className="mt-12 text-center">
           <h2 className="text-2xl font-bold mb-4 text-gray-900">Thank You For Your Support</h2>
           <p className="max-w-2xl mx-auto text-gray-600">
@@ -75,7 +42,6 @@ const DonatePage = () => {
             events, and initiatives that benefit those in need.
           </p>
         </div>
-      </div>
     </>
   );
 };

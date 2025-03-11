@@ -23,7 +23,7 @@ const RamadanPage = () => {
             src="https://ramadantimer.com/" 
             title="Ramadan Timer"
             className="w-full border-0 rounded-lg shadow-md" 
-            height="9q  00"
+            height="900"
             loading="lazy"
           />
         </div>

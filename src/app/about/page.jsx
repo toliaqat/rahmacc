@@ -13,6 +13,15 @@ import imadImage from "../../images/team/Imad.jpg";
 import anasImage from "../../images/team/Anas.jpg";
 import khaledImage from "../../images/team/Khaled.png";
 import touseefImage from "../../images/team/Touseef.jpg";
+import kyleImage from "../../images/team/Kyle.png";
+
+// Imams
+const imams = [
+  {
+    name: "Sheikh Kyle Smith",
+    image: kyleImage,
+  },
+];
 
 // Board members data
 const boardMembers = [
@@ -59,7 +68,7 @@ const boardMembers = [
 ];
 
 // Board Member component
-function BoardMember({ member }) {
+function Member({ member }) {
   return (
     <div className="flex flex-col items-center">
       <div className="relative h-40 w-40 overflow-hidden rounded-full mb-4">
@@ -115,11 +124,24 @@ const AboutPage = () => {
       {/* Board Members Section */}
       <Container className="mt-16">
         <h2 className="font-display text-2xl font-semibold text-neutral-950 mb-10 text-center">
+          Our Imam
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center mx-auto max-w-5xl">
+          <div className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 flex justify-center w-full">
+            {imams.map((member, index) => (
+              <Member key={index} member={member} />
+            ))}
+          </div>
+        </div>
+      </Container>
+      {/* Board Members Section */}
+      <Container className="mt-16">
+        <h2 className="font-display text-2xl font-semibold text-neutral-950 mb-10 text-center">
           Our Board
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 justify-items-center">
           {boardMembers.map((member, index) => (
-            <BoardMember key={index} member={member} />
+            <Member key={index} member={member} />
           ))}
         </div>
       </Container>
