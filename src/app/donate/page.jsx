@@ -7,6 +7,7 @@ import CopyButton from "@/components/CopyButton";
 const DonatePage = () => {
   return (
     <>
+    <div className="bg-white">
       <PageIntro
         eyebrow="Support Our Mission"
         title="Ways to Contribute"
@@ -42,6 +43,7 @@ const DonatePage = () => {
             events, and initiatives that benefit those in need.
           </p>
         </div>
+      </div>
     </>
   );
 };
