@@ -33,9 +33,9 @@ const Clients = () => {
         </FadeIn>
         <FadeInStagger faster>
         <p className="mt-6 text-xl text-white text-neutral-600">
-          At Rahma Community Center, we believe in nurturing both the spirit and the community.
-          Rooted in Islamic values, our center is a sanctuary for Muslims and a welcoming space
-          for everyone interested in building a brighter future together.
+            At Rahma Community Center, we believe in nurturing both the spirit and the community.
+            Rooted in Islamic values, our center is a refuge for Muslims and a welcoming space
+            for everyone interested in building a brighter future together.
           </p>
         </FadeInStagger>
       </Container>

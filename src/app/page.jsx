@@ -3,7 +3,7 @@ import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
-import Testimonials from "@/components/Testimonials";
+import Quotations from "@/components/Quotations";
 import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
 import imageIslamicArt from "../images/Mosque.jpg";
 import StylizedImage from "@/components/StylizedImage";
@@ -20,7 +20,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 text-xl text-neutral-600">
             At Rahma Community Center, we believe in nurturing both the spirit and the community.
-            Rooted in Islamic values, our center is a sanctuary for Muslims and a welcoming space
+            Rooted in Islamic values, our center is a refuge for Muslims and a welcoming space
             for everyone interested in building a brighter future together. We proudly serve Mill Creek
             and surrounding areas in Washington.
             </p>
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </FadeIn>
         </Container>
-        <Testimonials
+        <Quotations
           className="mt-24 sm:mt-32 lg:mt-40"
           title="Quran 2:177"
         >
@@ -89,7 +89,7 @@ export default function Home() {
           the Angels, the Book, and the Prophets and gives his wealth, in spite
           of love for it, to relatives, orphans, the needy, the traveler, those
           who ask [for help], and for freeing slaves.
-        </Testimonials>
+        </Quotations>
       <Services />
       <ContactSection />
     </main>

@@ -31,7 +31,7 @@ const boardMembers = [
     image: ihabImage,
   },
   {
-    name: "Ghassan Marouf ",
+    name: "Ghassan Marouf",
     title: "Vice President",
     image: gussanImage,
   },
@@ -67,7 +67,6 @@ const boardMembers = [
   },
 ];
 
-// Board Member component
 function Member({ member }) {
   return (
     <div className="flex flex-col items-center">

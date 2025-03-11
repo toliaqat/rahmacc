@@ -34,8 +34,9 @@ const Services = () => {
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Spiritual and Worship Services">
-             We provide a serene and welcoming mosque environment where you can engage in daily prayers, special Jumu&apos;ah gatherings,
-             and community-led spiritual sessions. Our aim is to offer a sanctuary that supports your journey of faith and reflection.
+             We currently host Friday (Jumu&apos;ah) prayers at our temporary rental location while we work toward establishing a permanent home. 
+             Despite our transitional setting, we strive to create a welcoming environment for worship and community connection. 
+             Our gatherings aim to support your faith journey and provide a space for reflection as we grow together.
             </ListItem>
             <ListItem title="Youth Empowerment Programs">
              Our youth programs are designed to inspire and empower the next generation. Through educational workshops,
@@ -48,7 +49,7 @@ const Services = () => {
              of hope and care in a diverse and interconnected world.
             </ListItem>
             <ListItem title="Educational and Development Resources">
-             At Rahma Community Center, learning and growth are at the heart of our mission. We offer a range of resources including seminars,
+             At Rahma Community Center at Mill Creek, learning and growth are at the heart of our mission. We offer a range of resources including seminars,
              leadership training, and counseling services designed to promote personal development and community resilience.
             </ListItem>
           </List>
