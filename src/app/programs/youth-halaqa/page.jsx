@@ -32,7 +32,7 @@ const YouthHalaqaPage = () => {
               Coming Soon
             </h2>
             <p className="mt-8 text-lg text-white">
-              We're planning to launch our Youth Halaqa program in the near future.  
+              We&apos;re planning to launch our Youth Halaqa program in the near future.  
               We are waiting for confirmation of location and recruiting volunteers to run the program.
             </p>
           </div>
