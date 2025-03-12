@@ -51,4 +51,4 @@ const Quotations = ({ children, title, className }) => {
   );
 };
 
-export default Testimonials;
+export default Quotations;
