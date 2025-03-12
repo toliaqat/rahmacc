@@ -3,6 +3,13 @@ import React from "react";
 import imageRamadan from "../../images/Ramadan.jpeg";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Ramadan",
+  alternates: {
+    canonical: "https://rahmacc.com/ramadan",
+  },
+};
+
 const RamadanPage = () => {
   return (
     <>

@@ -12,6 +12,7 @@ const Section = ({ title, image, children }) => {
             <StylizedImage
               {...image}
               sizes="(min-width: 1024px) 41rem, 31rem"
+              alt={image.src ? image.src.split('/').pop().split('.')[0] : ''}
               className="justify-center lg:justify-end lg:group-even/section:justify-start"
             />
           </FadeIn>

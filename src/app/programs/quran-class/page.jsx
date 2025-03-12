@@ -5,6 +5,13 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
 import quranClassImage from "../../../images/Quran.jpg";
 
+export const metadata = {
+  title: "Quran Class",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/quran-class",
+  },
+};
+
 const QuranClassPage = () => {
   return (
     <>

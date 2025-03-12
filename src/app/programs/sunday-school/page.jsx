@@ -6,6 +6,14 @@ import Button from "@/components/Button";
 import sundaySchoolImage from "../../../images/Quran.jpg";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
+
+export const metadata = {
+  title: "Sunday School",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/sunday-school",
+  },
+};
+
 const SundaySchoolPage = () => {
   return (
     <>

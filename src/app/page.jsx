@@ -4,7 +4,6 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Quotations from "@/components/Quotations";
-import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
 import imageIslamicArt from "../images/Mosque.jpg";
 import StylizedImage from "@/components/StylizedImage";
 import MoonPhaseInfo from "@/components/MoonPhaseInfo";
@@ -31,6 +30,7 @@ export default function Home() {
               shape={1}
               src={imageIslamicArt}
               sizes="(min-width: 1024px) 41rem, 31rem"
+              alt="Islamic Art"
               className="justify-center lg:justify-end"
             />
           </FadeIn>

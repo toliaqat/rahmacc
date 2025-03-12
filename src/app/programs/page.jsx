@@ -6,6 +6,13 @@ import CopyButton from "@/components/CopyButton";
 import Link from "next/link";
 import Button from "../../components/Button";
 
+export const metadata = {
+  title: "Programs",
+  alternates: {
+    canonical: "https://rahmacc.com/programs",
+  },
+};
+
 const ProgramsPage = () => {
   const programs = [
     {

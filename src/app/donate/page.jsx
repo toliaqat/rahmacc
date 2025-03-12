@@ -4,6 +4,13 @@ import imageRamadan from "../../images/Ramadan.jpeg";
 import Image from "next/image";
 import CopyButton from "@/components/CopyButton";
 
+export const metadata = {
+  title: "Donate",
+  alternates: {
+    canonical: "https://rahmacc.com/donate",
+  },
+};
+
 const DonatePage = () => {
   return (
     <>

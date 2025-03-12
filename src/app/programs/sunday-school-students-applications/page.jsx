@@ -3,6 +3,13 @@ import PageIntro from "@/components/PageIntro";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 
+export const metadata = {
+  title: "Student Application",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/sunday-school-students-applications",
+  },
+};
+
 const SundaySchoolStudentsApplicationPage = () => {
   return (
     <>

@@ -5,6 +5,13 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
 import roboticsImage from "../../../images/Robotics.jpg"; // You&apos;ll need to replace this with an appropriate robotics image
 
+export const metadata = {
+  title: "Robotics",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/robotics",
+  },
+};
+
 const RoboticsPage = () => {
   return (
     <>

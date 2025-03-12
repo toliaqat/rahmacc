@@ -4,13 +4,18 @@ import "./globals.css";
 
 export const metadata = {
   title: {
-    template: "Rahma",
-    default: "Rahma",
+    template: "%s | Rahma Community Center",
+    default: "Rahma Community Center",
   },
-  description: "A Vibrant Hub for Spiritual, Educational, and Community Growth!",
+  description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
+  keywords: ["Rahma community center", "islamic center", "RCC Mill Creek", "RCC spiritual growth", "Islamic education", "Mill creek community events"],
+  metadataBase: new URL("https://rahmacc.com"),
+  alternates: {
+    canonical: "https://rahmacc.com", // This will be overridden by page-specific canonicals
+  },
   openGraph: {
     title: "Rahma Community Center",
-    description: "A Vibrant Hub for Spiritual, Educational, and Community Growth!",
+    description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
     url: "https://rahmacc.com", // Replace with your actual URL
     siteName: "Rahma Community Center",
     images: [
@@ -18,7 +23,7 @@ export const metadata = {
         url: "/og-image.jpg", // This image should be placed in the public folder
         width: 1200,
         height: 630,
-        alt: "Rahma Community Center",
+        alt: "Rahma Community Center - Mill Creek's Islamic hub for spiritual and community growth",
       },
     ],
     locale: "en_US",
@@ -27,8 +32,19 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rahma Community Center",
-    description: "A Vibrant Hub for Spiritual, Educational, and Community Growth!",
+    description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
     images: ["/og-image.jpg"], // Same image as OG
+    creator: "@rahmacc",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
@@ -54,6 +70,20 @@ export default function Layout({ children }) {
           src="https://js.givebutter.com/elements/latest.js" 
           strategy="afterInteractive"
         />
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0FYLSYSDYW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0FYLSYSDYW');
+          `}
+        </Script>
       </body>
     </html>
   );

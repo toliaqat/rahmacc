@@ -26,6 +26,7 @@ const Quotations = ({ children, title, className }) => {
               shape={2}
               src={imageIslamicArt}
               sizes="(min-width: 1024px) 41rem, 31rem"
+              alt="Islamic Art"
               className="justify-center lg:justify-end"
             />
           </FadeIn>
@@ -37,9 +38,9 @@ const Quotations = ({ children, title, className }) => {
                 </p>
               </blockquote>
               <figcaption className="mt-10">
-              <h1 className="text-center font-display font-semibold tracking-wider sm:text-left">
+              <h2 className="text-center font-display font-semibold tracking-wider sm:text-left">
                 {title}
-              </h1>
+              </h2>
               </figcaption>
             </figure>
           </FadeIn>

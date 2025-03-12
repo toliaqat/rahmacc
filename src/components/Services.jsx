@@ -27,6 +27,7 @@ const Services = () => {
               <StylizedImage
                 src={imageLaptop}
                 sizes="(min-width: 1024px) 41rem, 31rem"
+                alt="Laptop"
                 className="justify-center lg:justify-end"
               />
             </FadeIn>

@@ -5,6 +5,13 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
 import sportsImage from "../../../images/Sports.jpg";
 
+export const metadata = {
+  title: "Sports",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/sports",
+  },
+};
+
 const SportsPage = () => {
   return (
     <>

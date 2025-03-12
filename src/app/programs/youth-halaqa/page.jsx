@@ -5,6 +5,13 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
 import youthHalaqaImage from "../../../images/Learning.jpg";
 
+export const metadata = {
+  title: "Youth Halaqa",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/youth-halaqa",
+  },
+};
+
 const YouthHalaqaPage = () => {
   return (
     <>

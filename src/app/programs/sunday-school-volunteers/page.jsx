@@ -3,6 +3,13 @@ import PageIntro from "@/components/PageIntro";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 
+export const metadata = {
+  title: "Sunday School Volunteers",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/sunday-school-volunteers",
+  },
+};
+
 const SundaySchoolVolunteersPage = () => {
   return (
     <>

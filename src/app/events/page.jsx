@@ -3,6 +3,13 @@ import React from "react";
 import Image from "next/image";
 import imageIftar22 from "../../images/events/Iftar22.jpg"; // You'll need to add this image to your project
 
+export const metadata = {
+  title: "Events",
+  alternates: {
+    canonical: "https://rahmacc.com/events",
+  },
+};
+
 const EventsPage = () => {
   return (
     <>

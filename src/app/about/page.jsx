@@ -15,6 +15,13 @@ import khaledImage from "../../images/team/Khaled.png";
 import touseefImage from "../../images/team/Touseef.jpg";
 import kyleImage from "../../images/team/Kyle.png";
 
+export const metadata = {
+  title: "About Us",
+  alternates: {
+    canonical: "https://rahmacc.com/about",
+  },
+};
+
 // Imams
 const imams = [
   {

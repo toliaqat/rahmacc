@@ -1,5 +1,12 @@
 import PageIntro from "@/components/PageIntro";
 
+export const metadata = {
+  title: "map",
+  alternates: {
+    canonical: "https://rahmacc.com/map",
+  },
+};
+
 const MapPage = () => {
   return (
     <>

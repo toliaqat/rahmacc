@@ -3,6 +3,13 @@ import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import PageIntro from "@/components/PageIntro";
 
+export const metadata = {
+  title: "Contact Us",
+  alternates: {
+    canonical: "https://rahmacc.com/contact",
+  },
+};
+
 const ContactPage = () => {
   return (
     <>

@@ -5,6 +5,13 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn"
 import openKitchenImage from "../../../images/Food.jpg"; // You&apos;ll need to replace this image with an appropriate one
 
+export const metadata = {
+  title: "Open Kitchen",
+  alternates: {
+    canonical: "https://rahmacc.com/programs/open-kitchen",
+  },
+};
+
 const OpenKitchenPage = () => {
   return (
     <>
