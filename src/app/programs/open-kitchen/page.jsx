@@ -25,9 +25,10 @@ const OpenKitchenPage = () => {
               Coming Soon
             </h2>
             <p className="mt-8 text-lg text-white">
-              We&apos;re excited to announce that our Open Kitchen program is currently in development. 
-              We&apos;re working hard to create a sustainable community food assistance program that will serve 
-              nutritious meals in a welcoming environment for all who need it.
+              We&apos;re planning to launch our Open Kitchen program in the near future.
+              We are currently securing a suitable location and recruiting volunteers to support the initiative.
+              Once these preparations are complete, we look forward to offering nutritious meals in a welcoming
+              environment that builds community connections and supports those in need with dignity and respect.
             </p>
           </div>
         </FadeIn>

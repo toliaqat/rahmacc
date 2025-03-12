@@ -7,7 +7,7 @@ import Image from "next/image";
 import imageIslamicArt from "../images/Quran.jpg";
 import StylizedImage from "@/components/StylizedImage";
 
-const Testimonials = ({ children, title, className }) => {
+const Quotations = ({ children, title, className }) => {
   return (
     <div
       className={clsx(

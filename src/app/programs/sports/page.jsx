@@ -25,9 +25,10 @@ const SportsPage = () => {
               Coming Soon
             </h2>
             <p className="mt-8 text-lg text-white">
-              We&apos;re excited to announce that our Sports program is currently in development. 
-              We&apos;re working hard to create an engaging and active program that will help Muslims 
-              stay physically fit while connecting with their community in a supportive environment.
+              We&apos;re planning to launch our Sports program in the near future. 
+              We are currently waiting for location confirmation and recruiting volunteers to run the program. 
+              Once these preparations are complete, we look forward to offering a comprehensive program to help Muslims 
+              stay active, build community bonds, and develop physical discipline in accordance with Islamic values.
             </p>
           </div>
         </FadeIn>

@@ -25,9 +25,8 @@ const YouthHalaqaPage = () => {
               Coming Soon
             </h2>
             <p className="mt-8 text-lg text-white">
-              We&apos;re excited to announce that our Youth Halaqa program is currently in development. 
-              We&apos;re working hard to create an engaging and educational program that will help young Muslims 
-              connect with their faith and each other in a supportive environment.
+              We're planning to launch our Youth Halaqa program in the near future.  
+              We are waiting for confirmation of location and recruiting volunteers to run the program.
             </p>
           </div>
         </FadeIn>

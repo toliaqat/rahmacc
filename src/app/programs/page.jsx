@@ -14,14 +14,19 @@ const ProgramsPage = () => {
       description: "Islamic education for children every Sunday.",
     },
     {
-      id: "open-kitchen",
-      name: "Open Kitchen",
-      description: "Community meal service program for those in need.",
+      id: "quran-class",
+      name: "Quran Class",
+      description: "Regular classes for Quran recitation, memorization, and understanding.",
     },
     {
       id: "youth-halaqa",
       name: "Youth Halaqa",
       description: "Weekly gathering for youth to discuss Islamic topics.",
+    },
+    {
+      id: "open-kitchen",
+      name: "Open Kitchen",
+      description: "Community meal service program for those in need.",
     },
     {
       id: "robotics",
@@ -49,10 +54,10 @@ const ProgramsPage = () => {
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {programs.map((program) => (
+          {programs.map((program, index) => (
             <div 
               key={program.id} 
-              className="bg-custom-beige rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              className={`${index % 2 === 0 ? 'bg-custom-olive' : 'bg-custom-kraft'} rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300`}
             >
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{program.name}</h3>

@@ -13,7 +13,9 @@ module.exports = {
       },
       colors: {
         'custom-beige': '#F0EEE6',
-        'custom-beige2': '#BCD1CA',
+        'custom-olive': '#BCD1CA',
+        'custom-fig': '#C46686',
+        'custom-kraft': '#d4a27f',
       },
       fontFamily: {
         sans: ["Mona Sans", ...defaultTheme.fontFamily.sans],
