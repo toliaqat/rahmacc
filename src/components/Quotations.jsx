@@ -7,7 +7,13 @@ import Image from "next/image";
 import imageIslamicArt from "../images/Quran.jpg";
 import StylizedImage from "@/components/StylizedImage";
 
-const Quotations = ({ children, title, className }) => {
+const Quotations = ({ 
+  children, 
+  title, 
+  className, 
+  showImage = true, 
+  image = imageIslamicArt 
+}) => {
   return (
     <div
       className={clsx(
@@ -21,15 +27,17 @@ const Quotations = ({ children, title, className }) => {
       />
       <Container>
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <FadeIn className="w-full max-w-[33.75rem] lg:w-[45rem] flex-none">
-            <StylizedImage
-              shape={2}
-              src={imageIslamicArt}
-              sizes="(min-width: 1024px) 41rem, 31rem"
-              alt="Islamic Art"
-              className="justify-center lg:justify-end"
-            />
-          </FadeIn>
+          {showImage && (
+            <FadeIn className="w-full max-w-[33.75rem] lg:w-[45rem] flex-none">
+              <StylizedImage
+                shape={2}
+                src={image}
+                sizes="(min-width: 1024px) 41rem, 31rem"
+                alt="Islamic Art"
+                className="justify-center lg:justify-end"
+              />
+            </FadeIn>
+          )}
           <FadeIn>
             <figure className="mx-auto max-w-4xl">
               <blockquote className="relative font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
@@ -46,8 +54,6 @@ const Quotations = ({ children, title, className }) => {
           </FadeIn>
         </div>
       </Container>
-
-
     </div>
   );
 };

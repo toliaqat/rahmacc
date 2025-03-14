@@ -16,6 +16,7 @@ export const navigation = [
       { title: "Open Kitchen", href: "/programs/open-kitchen" },
       { title: "Youth Halaqa", href: "/programs/youth-halaqa" },
       { title: "Sports", href: "/programs/sports" },
+      { title: "Blog", href: "/blog" },
     ],
   },
   {
