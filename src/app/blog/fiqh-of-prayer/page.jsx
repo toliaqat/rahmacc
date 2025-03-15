@@ -2,8 +2,8 @@ import PageIntro from "@/components/PageIntro";
 import React from "react";
 
 export const metadata = {
-  title: "The Fiqh of Prayer: Common Questions Answered - Rahma Community Center",
-  description: "Explore common questions about Islamic prayer, including obligatory parts, Sunnah acts, and what invalidates prayer, with insights from Rahma Community Center.",
+  title: "Islamic Prayer Guidance: Fiqh of Prayer - Rahma Community Center",
+  description: "Discover Islamic prayer guidance, including obligatory parts, Sunnah acts, and what invalidates prayer, with insights from Rahma Community Center.",
   alternates: {
     canonical: "https://rahmacc.com/blog/fiqh-of-prayer",
   },

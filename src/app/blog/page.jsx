@@ -7,8 +7,8 @@ import imageBlossams from "../../images/Blossams.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Rahma Community Center Blog - Latest News and Articles",
-  description: "Explore the latest news, events, and stories from Rahma Community Center. Stay informed and engaged with our community activities and Islamic knowledge.",
+  title: "Rahma Community Center Blog - Islamic News, Events, and Articles",
+  description: "Discover the latest Islamic news, events, and stories from Rahma Community Center. Stay informed and engaged with our community activities and Islamic teachings.",
   alternates: {
     canonical: "https://rahmacc.com/blog",
   },
@@ -48,7 +48,7 @@ const BlogPage = () => {
             <div className="relative lg:w-1/2 h-64 lg:h-auto">
               <Image 
                 src={imageQuran} 
-                alt="Understanding Tawheed" 
+                alt="Quran and Islamic Belief - Understanding Tawheed" 
                 fill 
                 className="object-cover"
               />
@@ -73,7 +73,7 @@ const BlogPage = () => {
             <div className="relative h-48">
               <Image 
                 src={imageRamadan} 
-                alt="Ramadan Celebration" 
+                alt="Ramadan Celebration at Rahma Community Center" 
                 fill 
                 className="object-cover"
               />
@@ -94,7 +94,7 @@ const BlogPage = () => {
             <div className="relative h-48">
               <Image 
                 src={imageKaaba} 
-                alt="Fiqh of Prayer" 
+                alt="Islamic Prayer Guidance - Fiqh of Prayer" 
                 fill 
                 className="object-cover"
               />
@@ -115,7 +115,7 @@ const BlogPage = () => {
             <div className="relative h-48">
               <Image 
                 src={imageQuran} 
-                alt="Quran Reflection" 
+                alt="Quran Reflection - Surah Al-Asr" 
                 fill 
                 className="object-cover"
               />
@@ -136,7 +136,7 @@ const BlogPage = () => {
             <div className="relative h-48">
               <Image 
                 src={imageBlossams} 
-                alt="Islamic Ethics" 
+                alt="Islamic Ethics in Modern World" 
                 fill 
                 className="object-cover"
               />

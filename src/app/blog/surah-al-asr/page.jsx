@@ -3,8 +3,8 @@ import React from "react";
 import Quotations from "@/components/Quotations";
 
 export const metadata = {
-  title: "Reflections on Surah Al-Asr: Embracing the Gift of Time - Rahma Community Center",
-  description: "Reflect on Surah Al-Asr and embrace the gift of time with insights from Rahma Community Center, exploring its timeless lessons for a purposeful life.",
+  title: "Surah Al-Asr Reflections: Embracing Time's Gift - Rahma Community Center",
+  description: "Explore reflections on Surah Al-Asr and embrace the gift of time with insights from Rahma Community Center, exploring its timeless lessons for a purposeful life.",
   alternates: {
     canonical: "https://rahmacc.com/blog/surah-al-asr",
   },
