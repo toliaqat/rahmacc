@@ -54,6 +54,23 @@ export default function Layout({ children }) {
       lang="en"
       className="h-full bg-neutral-950 text-base antialiased text-neutral-100"
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Rahma Community Center",
+              "url": "https://rahmacc.com",
+              "logo": "https://rahmacc.com/logo.png",
+              "sameAs": [
+                "https://www.facebook.com/rahmacc.wa"
+              ],
+            })
+          }}
+        />
+      </head>
       <body className="flex min-h-full flex-col">
         <RootLayout>{children}</RootLayout>
         {/* Givebutter Scripts */}
