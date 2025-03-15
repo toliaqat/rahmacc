@@ -4,8 +4,8 @@ import imageIftar from "../../../images/Iftar.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Ramadan Celebrations at Rahma",
-  description: "A Night of Unity, Reflection, and Joy during the blessed month of Ramadan",
+  title: "Ramadan Celebrations at Rahma: A Night of Unity and Reflection - Rahma Community Center",
+  description: "Join Rahma Community Center's Ramadan celebrations, a night of unity, reflection, and joy, highlighting the spirit of togetherness and spiritual renewal.",
   alternates: {
     canonical: "https://rahmacc.com/blog/ramadan-celebrations",
   },

@@ -3,8 +3,8 @@ import React from "react";
 import Quotations from "@/components/Quotations";
 
 export const metadata = {
-  title: "Islamic Ethics",
-  description: "Navigating Contemporary Challenges with Timeless Wisdom",
+  title: "Islamic Ethics in the Modern World: Navigating Challenges with Wisdom - Rahma Community Center",
+  description: "Discover how Islamic ethics guide Muslims in navigating modern challenges with timeless wisdom, as explored by Rahma Community Center.",
   alternates: {
     canonical: "https://rahmacc.com/blog/islamic-ethics",
   },

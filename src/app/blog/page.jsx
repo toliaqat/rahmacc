@@ -7,7 +7,8 @@ import imageBlossams from "../../images/Blossams.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Blog",
+  title: "Rahma Community Center Blog - Latest News and Articles",
+  description: "Explore the latest news, events, and stories from Rahma Community Center. Stay informed and engaged with our community activities and Islamic knowledge.",
   alternates: {
     canonical: "https://rahmacc.com/blog",
   },

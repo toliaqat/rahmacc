@@ -3,8 +3,8 @@ import React from "react";
 import Quotations from "@/components/Quotations";
 
 export const metadata = {
-  title: "Understanding Tawheed",
-  description: "Tawhid 101: The Foundation of Islamic Belief",
+  title: "Understanding Tawheed: The Foundation of Islamic Belief - Rahma Community Center",
+  description: "Delve into Tawheed, the foundation of Islamic belief, with Rahma Community Center's comprehensive guide to understanding its profound implications.",
   alternates: {
     canonical: "https://rahmacc.com/blog/understanding-tawheed",
   },
