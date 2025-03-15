@@ -7,7 +7,7 @@ export const metadata = {
     template: "%s | Rahma Community Center",
     default: "Rahma Community Center",
   },
-  description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
+  description: "Rahma Community Center: A Vibrant Muslim Hub in Mill Creek, WA for Spiritual, Educational, and Community Growth.",
   keywords: ["Rahma community center", "islamic center", "RCC Mill Creek", "RCC spiritual growth", "Islamic education", "Mill creek community events"],
   metadataBase: new URL("https://rahmacc.com"),
   alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Rahma Community Center",
-    description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
+    description: "Rahma Community Center: A Vibrant Muslim Hub in Mill Creek, WA for Spiritual, Educational, and Community Growth.",
     url: "https://rahmacc.com", // Replace with your actual URL
     siteName: "Rahma Community Center",
     images: [
@@ -23,7 +23,7 @@ export const metadata = {
         url: "/og-image.jpg", // This image should be placed in the public folder
         width: 1200,
         height: 630,
-        alt: "Rahma Community Center - Mill Creek's Islamic hub for spiritual and community growth",
+        alt: "Rahma Community Center - Mill Creek's Islamic Hub for Spiritual and Community Growth",
       },
     ],
     locale: "en_US",
@@ -32,7 +32,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rahma Community Center",
-    description: "A Vibrant Muslim Hub at Mill Creek, WA for Spiritual, Educational, and Community Growth!",
+    description: "Rahma Community Center: A Vibrant Muslim Hub in Mill Creek, WA for Spiritual, Educational, and Community Growth.",
     images: ["/og-image.jpg"], // Same image as OG
     creator: "@rahmacc",
   },
