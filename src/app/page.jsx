@@ -15,13 +15,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-center gap-12">
           <FadeIn className="max-w-3xl">
             <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-             A Vibrant Hub for Spiritual, Educational, and Community Growth!
+             Mill Creek's Vibrant Mosque for Prayer, Education, and Community
             </h1>
             <p className="mt-6 text-xl text-neutral-600">
             At Rahma Community Center, we believe in nurturing both the spirit and the community.
-            Rooted in Islamic values, our center is a refuge for Muslims and a welcoming space
-            for everyone interested in building a brighter future together. We proudly serve Mill Creek
-            and surrounding areas in Washington.
+            As Mill Creek's premier mosque, our center is a refuge for Muslims seeking prayer and spiritual growth,
+            and a welcoming space for everyone interested in building a brighter future together. We proudly serve Mill Creek
+            and surrounding areas in Washington with daily prayers, Islamic education, and community programs.
             </p>
           </FadeIn>
           
@@ -40,10 +40,10 @@ export default function Home() {
         <FadeIn className="rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
-                Prayer Times!
+                Mill Creek Mosque Prayer Times
               </h2>
               <h3 className="font-display text-base font-semibold text-white mt-4">
-                Jumu&apos;ah Prayer: 1:30pm
+                Jumu&apos;ah Prayer at Mill Creek Mosque: 1:30pm
               </h3>
               <div className="mt-1 border-t border-white/10 pt-10">
                 <div className="flex flex-col md:flex-row  items-center">
