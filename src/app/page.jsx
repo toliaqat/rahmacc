@@ -15,11 +15,11 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-center gap-12">
           <FadeIn className="max-w-3xl">
             <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-             Mill Creek's Vibrant Mosque for Prayer, Education, and Community
+             Mill Creek&apos;s Vibrant Mosque for Prayer, Education, and Community
             </h1>
             <p className="mt-6 text-xl text-neutral-600">
             At Rahma Community Center, we believe in nurturing both the spirit and the community.
-            As Mill Creek's premier mosque, our center is a refuge for Muslims seeking prayer and spiritual growth,
+            As Mill Creek&apos;s premier mosque, our center is a refuge for Muslims seeking prayer and spiritual growth,
             and a welcoming space for everyone interested in building a brighter future together. We proudly serve Mill Creek
             and surrounding areas in Washington with daily prayers, Islamic education, and community programs.
             </p>
